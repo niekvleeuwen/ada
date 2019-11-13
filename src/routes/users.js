@@ -3,11 +3,11 @@ var router = express.Router()
 
 /* GET users listing. */
 router.get('/', function (req, res, next) {
-  res.send('respond with a resource')
+  res.json({code: '400', error: 'No parameters found' });
 })
 
 router.get('/cool', function (req, res, next) {
-  res.send('You\'re so cool!')
+  res.json({code: '200', error: 'You are so cool!' });
 })
 
 module.exports = router
