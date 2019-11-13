@@ -7,14 +7,14 @@
     "dev": "nodemon ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "cookie-parser": "latest",
+    "debug": "latest",
+    "express": "latest",
+    "http-errors": "latest",
+    "jade": "latest",
+    "morgan": "latest"
   },
   "dev-dependencies": {
-    "nodemon": "^1.18.10"
+    "nodemon": "latest"
   }
 }
